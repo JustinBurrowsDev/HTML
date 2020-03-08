@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  height: 900px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  padding: 100px;
+
+  color: #fff;
+  margin: 0;
+}
+
+h1 {
+  background-color: rgba(10, 19, 36);
+  font-family: "Spartan", sans-serif;
+}
+
+h2 {
+  background-color: rgba(10, 19, 36);
+  font-family: "Spartan", sans-serif;
+}
+
+h3 {
+  background-color: rgba(118, 126, 161);
+  font-family: "Spartan", sans-serif;
+}
+
+h4 {
+  background-color: rgba(118, 126, 161);
+  font-family: "Lato", sans-serif;
+}
+
+h6 {
+  background-color: rgba(10, 19, 36);
+  font-family: "Lato", sans-serif;
+}
+
+h5 {
+  background-color: rgba(194, 203, 243);
+  font-family: "Lato", sans-serif;
+}
+
+ul {
+  justify-content: center;
+  list-style-type: none;
+  background-color: rgba(194, 203, 243);
+  margin: 0;
+  color: #fff;
+  padding: 100px;
+}
+
+li {
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+}
+
+table {
+  background-color: rgba(194, 203, 243);
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+
+td {
+  border-radius: 5px;
+  background-color: rgba(10, 19, 36);
+  font-family: "Lato", sans-serif;
+}
+
+thead {
+  border-radius: 5px;
+  background-color: rgba(10, 19, 36);
+  border-radius: 5px;
+  font-family: "Spartan", sans-serif;
+}
+
+th {
+  border-radius: 5px;
+  font-family: "Spartan", sans-serif;
+}
